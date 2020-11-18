@@ -2,7 +2,7 @@ package au.com.automation.enums;
 
 /**
  * 
- * @author  Lakhwinder Singh
+ * @author  Nitish Arora
  *
  */
 public enum Browsers {

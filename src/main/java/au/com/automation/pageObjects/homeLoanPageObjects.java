@@ -8,9 +8,9 @@ import org.openqa.selenium.WebElement;
 public class homeLoanPageObjects {
     private static WebElement element = null;
     WaitHelper waitHelper;
-
+public static By applicationtypeSingle =By.xpath("//*[@for='application_type_single']");
     public static WebElement applicationTypeSingle(WebDriver driver) {
-        element = driver.findElement(By.xpath("//*[@for='application_type_single']"));
+        element = driver.findElement(applicationtypeSingle);
         return element;
     }
     public static WebElement applicationTypeJoint(WebDriver driver) {

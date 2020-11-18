@@ -11,12 +11,13 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 /**
  * 
- * @author Lakhwinder Singh
+ * @author Nitish Arora
 
  */
 @CucumberOptions(features = "src/test/resources/features", glue = {"au/com/automation/stepdefinitions"},
 		plugin = { "pretty", "html:target/cucumber-Reports/cucumber-Pretty",
-		"json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt" })
+		"json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt" },
+		tags = {"@Smoke"})
 public class TestRunner {
 	
 	private TestNGCucumberRunner testNGCucumberRunner;

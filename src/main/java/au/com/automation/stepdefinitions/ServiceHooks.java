@@ -2,10 +2,9 @@ package au.com.automation.stepdefinitions;
 import au.com.automation.pages.TestBase;
 import cucumber.api.Scenario;
 import au.com.automation.enums.Browsers;
-import au.com.automation.helper.LoggerHelper;
+import au.com.automation.helper.Logger;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriverException;
@@ -15,7 +14,7 @@ public class ServiceHooks {
 	private String browser="";
 	TestBase testBase;
 
-	Logger log = LoggerHelper.getLogger(ServiceHooks.class);
+	org.apache.log4j.Logger log = Logger.getLogger(ServiceHooks.class);
 
 	@Before
 	public void initializeTest() {

@@ -9,7 +9,7 @@ import au.com.automation.enums.OS;
 
 /**
  * 
- * @author Lakhwinder Singh
+ * @author Nitish Arora
  *
  */
 public class TestBase {

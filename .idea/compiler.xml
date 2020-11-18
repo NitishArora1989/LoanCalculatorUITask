@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Home.Loan.Borrower.Calculator" />
+        <module name="LoanBorrowerCalculator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Home.Loan.Borrower.Calculator" target="1.5" />
+      <module name="LoanBorrowerCalculator" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

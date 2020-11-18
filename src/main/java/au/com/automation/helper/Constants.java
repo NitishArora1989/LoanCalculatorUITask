@@ -2,7 +2,7 @@ package au.com.automation.helper;
 
 /**
  * 
- * @author Lakhwinder Singh
+ * @author Nitish Arora
  *
  */
 public class Constants {
