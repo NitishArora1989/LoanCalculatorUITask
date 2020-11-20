@@ -3,7 +3,6 @@ the file is written in GIVEN WHEN THEN
 It has stepdefinations file
 This Project contains helpers method, runner class
 
-
 How to Run
 
 We are run from cmd - MVN install 
